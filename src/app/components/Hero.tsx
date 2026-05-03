@@ -75,17 +75,32 @@ export function Hero() {
           transition={{ delay: 0.6 }}
           className="flex gap-4 justify-center flex-wrap"
         >
-          <button className="bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all flex items-center gap-2">
+          <a
+            href="https://your-resume-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all flex items-center gap-2 cursor-pointer"
+          >
             <Play size={20} />
             Resume
-          </button>
-          <button className="border border-white/30 px-8 py-4 rounded-full hover:bg-white/10 transition-all">
+          </a>
+          <a
+            href="https://your-cover-letter-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/30 px-8 py-4 rounded-full hover:bg-white/10 transition-all cursor-pointer"
+          >
             Cover Letter
-          </button>
-          <button className="border border-white/30 px-8 py-4 rounded-full hover:bg-white/10 transition-all flex items-center gap-2">
+          </a>
+          <a
+            href="https://your-recommendation-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/30 px-8 py-4 rounded-full hover:bg-white/10 transition-all flex items-center gap-2 cursor-pointer"
+          >
             <FileText size={20} />
             Recommendation Letter
-          </button>
+          </a>
         </motion.div>
 
         {/* Scroll Indicator */}
