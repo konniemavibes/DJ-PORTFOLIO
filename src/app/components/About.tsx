@@ -4,7 +4,7 @@ import aboutImage from "../../imports/568513828_17883436293392962_48055211257787
 
 const stats = [
   { icon: Music, value: "15+", label: "Events Performed" },
-  { icon: Headphones, value: "1k+", label: "Happy Listeners" },
+  { icon: Headphones, value: "400+", label: "Happy Listeners" },
   { icon: Radio, value: "2+", label: "Years Experience" },
   { icon: Award, value: "1", label: "Award Won (ASYV DJ Grade Competition)" },
 ];
@@ -56,16 +56,18 @@ export function About() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <h3 className="text-3xl md:text-4xl">Crafting Sonic Mixes at ASYV</h3>
+            <h3 className="text-1.5xl md:text-1xl">My name is ISHIMWE David. I am currently studying in senior 5 MCE at ASYV(Agahozo-Shalom Youth Village) as well part of technical team.
+              I am passionte about DJing and sound engineering as well light designing is also my hobby.
+            </h3>
             <p className="text-gray-400 text-lg leading-relaxed">
-              With over 2+ years behind the decks, I've mastered the art of reading the crowd and
-              creating the perfect atmosphere. From intimate club nights to massive festival stages,
-              my mission is to take listeners on an unforgettable journey through music.
+              With over 2+ years of experience behind the decks, I've mastered the art of reading the audience with high energy and
+              creating the perfect atmosphere with high sound quality when I am not behind the deck. From intimate Village performance at ASYV,
+              my mission is to take listeners on an unforgettable journey through music by using energetic transition, loops and effects.
             </p>
             <p className="text-gray-400 text-lg leading-relaxed">
-              Specializing in House, Techno, and Electronic music, I blend classic tracks with
-              cutting-edge beats to create a unique sonic signature that keeps the dance floor
-              moving all night long with good vibes.
+              Specializing in Afrobeat, Amapiano, and Afrohouse music, I mix classic tracks with
+              cutting-edge beats to create a unique soft sound that keeps the dance floor
+              moving with good vibes.
             </p>
             <div className="flex gap-4 pt-4">
               <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse" />
