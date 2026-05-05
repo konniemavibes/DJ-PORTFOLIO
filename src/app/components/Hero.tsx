@@ -76,7 +76,7 @@ export function Hero() {
           className="flex gap-4 justify-center flex-wrap"
         >
           <a
-            href="https://drive.google.com/file/d/12w4AJYP7RWKmKkstkstPNj5ujGsxo0sx/view?usp=sharing"
+            href="https://docs.google.com/document/d/17bm0povFUZ7U4e8ECWSi6qxZ1FvKMPiklODEB5nVo4M/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all flex items-center gap-2 cursor-pointer"
