@@ -85,7 +85,7 @@ export function Hero() {
             Resume
           </a>
           <a
-            href="https://your-cover-letter-link.com"
+            href="https://docs.google.com/document/d/1CXQEELIyQGX5joX8CTd9PjUsC5_pZmE6iugi4QrmJsQ/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/30 px-8 py-4 rounded-full hover:bg-white/10 transition-all cursor-pointer"
@@ -93,7 +93,7 @@ export function Hero() {
             Cover Letter
           </a>
           <a
-            href="https://your-recommendation-link.com"
+            href="https://drive.google.com/file/d/1d5hQsDlV4rRko_HzemYn8T9V3fGX-V6W/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/30 px-8 py-4 rounded-full hover:bg-white/10 transition-all flex items-center gap-2 cursor-pointer"
